@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+        <title>Poliloki</title>
+		<link rel="icon" href="../Recursos/LogoPoliloki.png">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8"
+		<meta name="author" content="Carlos Povill">
+		<meta name="keywords" content="web, poliloki, future funk, experimental"/>
+		<meta http-equiv="content-language" content="es-es">
+		<meta name="description" content="Pagina de contacto de Poliloki">
+
+
+</head>
+<body>
+	<div class="permanente">
+		<header><h1><img src="../Recursos/LogoPoliloki.png" alt="loki" height="75%">  <abbr title="Herramienta para la creacion de diccionarios personales">POLILOKI</abbr></h1></header>
+		<div>
+			<ul class="nav">
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="mapaweb.html">Mapa Web</a>
+				</li>
+				<li>
+					<a href="formulario.html">Formulario Contacto</a>
+				</li>
+				<li>
+					<a href="#">Quienes somos</a>
+				</li>
+				<a href="index.html"><img id="casa" alt="Una casa. " height="45px" src="../Recursos/Casa.png"></a>
+
+			</ul>
+		</div>
+	</div>
+	<main>
+		<div class="verticalizador">
+			<div>
+				<section>
+					<article>
+						<div id="articulos">
+							<h2>Contacto</h2>
+							<p>
+								Introduce tu información para contactar:
+							</p>
+							
+							<form action="/datos.php">
+						<fieldset>
+							<legend>Formulario de contacto:</legend>
+							<label for="email">Correo</label>
+							<input type="email" id="correo" name="email" /><br><br>
+							
+							<label>¿Cómo quieres que se te llegue la respuesta?</label><br>
+							<input type="checkbox" name="telefono" id="telefono" /><label for="telefono">Teléfono</label><br>
+							<input type="checkbox" name="email" id="email" /><label for="email">Email</label><br><br>
+
+							<label>¿Tratamiento?</label><br>
+							<input type="radio" id="hombre" name="genero" value="Hombre"><label for="hombre">Hombre</label><br>
+							<input type="radio" id="mujer" name="genero" value="Mujer"><label for="mujer">Mujer</label><br>
+							<input type="radio" id="noresponder" name="genero" value="Prefiero no responder"><label for="noresponder">Prefiero no responder</label><br><br>
+
+							<label>Introduce tu centro más cercano</label><br>
+							<input list="ciudades"><br>
+							<datalist id="ciudades">
+								<option value="Londres"></option>
+								<option value="Amsterdam"></option>
+								<option value="Berlin"></option>
+							</datalist><br>
+
+							<label>¿Cuál es tu color favorito?</label><br>
+							<input type="color" name="micolor" value="black"><br><br>
+
+							<label style="width:100%">Escribe aquí tu mensaje</label><br>
+							<textarea name="escribe aquí tu mensaje" cols="20" rows="5"></textarea><br><br>
+							<!- Aquí no se pueden poner varias palabras separadas porque no se permite colocar espacios. ->
+							<label for="palabra">Introduce una sola palabra de máximo 8 letras:</label><br>
+							<input type="text" id="palabra" name="palabra" required minlength="0" maxlength="8" size="10" />
+<br><br>
+
+							<label>Introduce tu mejor foto de una puesta de sol</label>
+							<input type="file" name="foto"><br><br>
+
+
+							<input type="submit" name="enviar" value="Enviar" />
+							<input type="reset" name="borrar" value="Limpiar" />
+						</fieldset>
+
+					</form>
+						</div>
+					</article>
+				</section>
+			</div>
+			<div id="divaside">
+				<aside>
+					<h3>Artículos <img src="../Recursos/dicc.png" alt ="Imagen simbólica de un diccionario" height="40px"/></h3>
+					<ul id="asidelista">
+						<li><a href="futurefunk.html">Future Funk</a></li>
+						<li><a href="#">Artículo 2</a></li>
+						<li><a href="#">Artículo 3</a></li>
+						<li><a href="#">Artículo 4</a></li>
+						<li><a href="#">Artículo 5</a></li>
+					</ul>
+					<video width="200px" controls>
+						<source src="https://archive.org/download/the-fabulous-baron-munchausen/The%20Fabulous%20Baron%20Munchausen.m4v" type="video/mp4" alt="Película completa El fabuloso Barón de Munchausen">
+						Your browser does not support HTML video.
+					</video>
+				</aside>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<table border="1">
+			<tr>
+				<th colspan="3">Autor: <font size="4" color="#336699" face="Comic sans MS">Carlos Povill</font></th>
+			</tr>
+			<tr>
+				<td rowspan="3">Material usado: </td>
+				<td><font size="2" color="#336699" face="Comic sans MS">Foto diccionario</font></td>
+				<td><font size="2" color="#336699" face="Comic sans MS">Origen: <a href="https://icon-icons.com/es/icono/diccionario/18067">icon-icons.com</a>, Autor: xenatt</font></td>
+			</tr>
+			<tr>
+				<td><font size="2" color="#336699" face="Comic sans MS">El Fabuloso Barón de Munchausen</font></td>
+				<td><font size="2" color="#336699" face="Comic sans MS">Origen: <a href="https://archive.org/details/the-fabulous-baron-munchausen">archive.org</a>, Autor: Karel Zeman</font></td>
+			</tr>
+			<tr>
+				<td><font size="2" color="#336699" face="Comic sans MS">Logo Loki</font></td>
+				<td><font size="2" color="#336699" face="Comic sans MS">Origen: <a href="https://www.deviantart.com/kittoloki/art/Loki-symbol--524901479">devianart.com</a>, Autor: kittoloki (modificado)</font></td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>
