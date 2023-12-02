@@ -2,49 +2,55 @@
 <html>
 <head>
         <title>Poliloki</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="icon" href="./Recursos/LogoPoliloki.png">
+
+        <link rel="stylesheet" type="text/css" href="estilos.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<meta name="author" content="Carlos Povill">
+		<meta name="keywords" content="web, poliloki, future funk, experimental"/>
+		<meta http-equiv="content-language" content="es-es">
+		<meta name="description" content="Pagina de contacto de Poliloki">
+
+
 </head>
 <body>
-	<header><h1>POLILOKI</h1></header>
-	<div>
-		<ul class="nav">
-			<li>
-				<a href="index.html">HOME</a>
-			</li>
-			<li>
-				<a href="mapaweb.html">Mapa Web</a>
-			</li>
-			<li>
-				<a href="formulario.html">Formulario Contacto</a>
-			</li>
-			<li>
-				<a href="#">Quienes somos</a>	
-			</li>
+	<div class="permanente">
+		<header><h1><img src="./Recursos/LogoPoliloki.png" alt="loki" height="75%">  <abbr title="Herramienta para la creacion de diccionarios personales">POLILOKI</abbr></h1></header>
+		<div>
+			<ul class="nav">
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="mapaweb.html">Mapa Web</a>
+				</li>
+				<li>
+					<a href="formulario.html">Formulario Contacto</a>
+				</li>
+				<a href="index.html"><img id="casa" alt="Una casa. " height="45px" src="./Recursos/Casa.png"></a>
 
-		</ul>
+		</div>
 	</div>
 	<main>
 		<div class="verticalizador">
 			<div>
 				<section>
 					<article>
-						<div id="a1">
-							<h2>Home</h2>
+						<div id="articulos">
+							<h2>Mapa Web</h2>
 							<p>
-								Hablando sobre la página
+								<img src="../Memoria/MapaWeb.PNG" width="100%" alt="mapa de las diferentes entradas de la pagina web">
 							</p>
-						</div>	
-				
+						</div>
 					</article>
 				</section>
 			</div>
 			<div id="divaside">
 				<aside>
-					<h3>Artículos</h3>
+					<h3>Artículos <img src="./Recursos/dicc.png" alt ="Imagen simbólica de un diccionario" height="40px"/></h3>
 					<ul id="asidelista">
 						<li><a href="futurefunk.html">Future Funk</a></li>
 						<li><a href="#">Artículo 2</a></li>
@@ -52,13 +58,39 @@
 						<li><a href="#">Artículo 4</a></li>
 						<li><a href="#">Artículo 5</a></li>
 					</ul>
+					<video width="200px" controls>
+						<source src="https://archive.org/download/the-fabulous-baron-munchausen/The%20Fabulous%20Baron%20Munchausen.m4v" type="video/mp4" alt="Película completa El fabuloso Barón de Munchausen">
+						Your browser does not support HTML video.
+					</video>
 				</aside>
 			</div>
 		</div>
-		
 	</main>
-	<footer>footer</footer>
-	
-	
+	<footer>
+		<table border="1">
+			<tr>
+				<th colspan="3">Autor: <font id="letrasFooter">Carlos Povill</font></th>
+			</tr>
+			<tr>
+				<td rowspan="3">Material usado: </td>
+				<td><font  id="letrasFooter">Foto diccionario</font></td>
+				<td><font  id="letrasFooter">Origen: <a href="https://icon-icons.com/es/icono/diccionario/18067">icon-icons.com</a>, Autor: xenatt</font></td>
+			</tr>
+			<tr>
+				<td><font  id="letrasFooter">El Fabuloso Barón de Munchausen</font></td>
+				<td><font  id="letrasFooter">Origen: <a href="https://archive.org/details/the-fabulous-baron-munchausen">archive.org</a>, Autor: Karel Zeman</font></td>
+			</tr>
+			<tr>
+				<td><font  id="letrasFooter">Logo Loki</font></td>
+				<td><font id="letrasFooter" >Origen: <a href="https://www.deviantart.com/kittoloki/art/Loki-symbol--524901479">devianart.com</a>, Autor: kittoloki (modificado)</font></td>
+			</tr>
+			<tr>
+				<td colspan="3">Contacto: <a href="mailto: contacto@poliloki.com">contacto@poliloki.com</a>, <a href="Tel: +34 653783719">Telefono</a></td>
+			</tr>
+			<tr>
+				<td colspan="3"><a href="./mapaweb.html">Mapa web</a></td>	
+			</tr>
+		</table>
+	</footer>
 </body>
 </html>
